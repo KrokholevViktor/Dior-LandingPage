@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container-arrow {
+    position: relative;
+    max-width: 1200px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #1b1b1b;
+}
+
+.header {
+    margin-bottom: 90px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.menu {
+    margin-left: 130px;
+    margin-right: 185px;
+}
+
+.menu__item {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.user-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.top {
+    margin-bottom: 120px;
+}
+
+.top-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.top-slide__inner {
+    min-height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.top-slide__content {
+    flex-basis: 183px;
+    margin-top: -88px;
+}
+
+.top-slide__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 1.3;
+}   
+
+.top-slide__subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.top-slide__text {
+    margin-bottom: 20px;
+}
+
+.top-slide__btn {
+    color: #7449BB;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 21px 55px;
+    border: 1px solid #7449BB;
+    display: inline-block;
+    margin-left: auto;
+    transition: all 0.35s ease;
+}
+
+.top-slide__btn:hover {
+    background-color: #7449BB;
+    color: #fff;
+}
+
+.top .swiper {
+    padding-bottom: 100px;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    content: none;
+}
+
+.swiper-button-next {
+    left: 75px;
+    right: auto;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    margin-top: 30px;
+}
