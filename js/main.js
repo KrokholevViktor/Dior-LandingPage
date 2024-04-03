@@ -2,10 +2,13 @@ const swiperTop = new Swiper('.top__swiper', {
     // Optional parameters
     direction: 'horizontal',
     effect: 'fade',
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    //   },
+    pagination: {
+      el: ".top__swiper-pagination",
+    },
   
     // Navigation arrows
     navigation: {
