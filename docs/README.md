@@ -1,5 +1,5 @@
-# **DiorLand**
+# **Dior LandingPage**
 
-[DiorLand - demo](https://krokholevviktor.github.io/diorLand/) 
+[Dior LandingPage - demo](https://krokholevviktor.github.io/diorLand/) 
 
 ![Текст описания](images/diorPreview.jpg)
